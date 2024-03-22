@@ -1,0 +1,48 @@
+body {
+    box-sizing: border-box;
+    background: #86e4e4;
+}
+
+h1,
+footer {
+    text-align: center;
+    color: #290b0b;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 40em;
+}  
+
+textarea {
+    min-height: 25em;
+    min-width: 50em;
+    padding: 1em;
+    border-radius: 15px;    
+}
+
+#container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    background: rgb(13, 46, 134);
+    border-radius: 0 0 .7em .7em ;
+    margin-top: -1px;
+    min-width: 37.5em;
+}
+
+textarea:focus {
+    border-left: 2px solid rgb(67, 160, 71);
+    border-top: 2px solid rgb(67, 160, 71);
+    border-right: 2px solid rgb(67, 160, 71);
+}
+
+#container span {
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+}
